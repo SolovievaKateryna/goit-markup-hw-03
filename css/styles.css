@@ -60,9 +60,9 @@ section {
     align-items: center;
 }
 
-a.logo {
+/*a.logo {
     padding: 24px 0
-}
+}*/
 
 .logo {
     color: #4d5ae5;
@@ -93,6 +93,10 @@ a.logo {
 .list-navigation a:hover,
 .list-navigation a:focus {
     color: #404BBF;
+}
+
+.list-navigation-studio {
+    padding: 24px 0
 }
 
 .list-navigation-studio:active {
@@ -276,6 +280,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px
 }
 
 .item-card-portfolio {
@@ -285,7 +290,6 @@ address {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px
 }
 
 

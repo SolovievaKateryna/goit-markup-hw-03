@@ -96,7 +96,7 @@ section {
 }
 
 .list-navigation-studio {
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .list-navigation-studio:active {
@@ -175,9 +175,13 @@ address {
 
 
 .visually-hidden {
-    white-space: nowrap;
-    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
     overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .list-advantages {
@@ -280,7 +284,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .item-card-portfolio {

@@ -60,7 +60,8 @@ section {
     align-items: center;
 }
 
-.logo {
+.logo,
+.logo-footer {
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -139,8 +140,9 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin: 0 auto;
-    padding-bottom: 48px;
+    margin-right: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
 }
 
 .button-hero {
@@ -232,7 +234,6 @@ address {
 }
 
 .item-cart-team {
-    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 32px 0;
@@ -248,7 +249,7 @@ address {
     margin-bottom: 8px
 }
 
-.section-paragraph {
+.section-paragraph-team {
     text-align: center;}
 
 /**Секція 4, Our Portfolio-----------------------------*/
@@ -287,9 +288,6 @@ address {
 }
 
 .item-card-portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -305,7 +303,7 @@ address {
     padding: 100px 0
 }
 
-a.logo {
+.logo-footer {
     display: inline-block;
     margin-bottom: 16px;
 }
